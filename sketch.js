@@ -13,7 +13,7 @@ function preload(){
 }
 
 function setup(){
-    createCanvas(749,524);
+    createCanvas(749,524).parent("sketch-holder");
 }
 
 function draw(){
